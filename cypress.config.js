@@ -1,9 +1,10 @@
-const { defineConfig } = require('cypress');
+const { defineConfig
+} = require('cypress');
 
 module.exports = defineConfig({
   projectId: "spdb6n",
   e2e: {
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'http: //localhost:4000', // Port numarasını güncelledik
     supportFile: false,
-  },
+    },
 });
